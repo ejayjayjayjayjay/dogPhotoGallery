@@ -9,14 +9,26 @@ body {
     background-color: #f5f6f7;
 }
 
-.header{
+.header {
     text-align: center;
     text-transform: uppercase;
-    background-color: rgb(228, 202, 168);/*#E4CCA8*/
+    background-color: rgb(228, 202, 168);
+    /*#E4CCA8*/
     padding: 3px;
     color: #000040;
     border-bottom: 4px solid #000040;
 
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    
 }
 
 .gallery img {
