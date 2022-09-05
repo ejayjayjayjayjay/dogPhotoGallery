@@ -40,6 +40,13 @@ body {
 
 }
 
+.gallery:after{
+    content:"";
+    width: 350px;
+    background-color: green;
+    height: 350px;
+}
+
 /* FLEX-ITEM */
 .gallery img {
     width: 100%;
@@ -47,5 +54,5 @@ body {
     max-width: 350px; /* max-width- If the content is larger than the maximum width, it will automatically change the height of the element. */
     object-fit: cover;/* Work with aspect ratio and solve image distortion */
     border-radius: 10px;
-
 }
+
